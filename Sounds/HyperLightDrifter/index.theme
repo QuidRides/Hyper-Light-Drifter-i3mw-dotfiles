@@ -1,0 +1,6 @@
+[Sound Theme]
+Name=HyperLightDrifter
+Directories=stereo
+
+[stereo]
+OutputProfile=stereo

@@ -8,6 +8,8 @@ Hyper light drifter dotfiles for i3wm and xfce.
 
 (screenshots are a little outdated. I need to add new ones.)
 
-The .theme is a fork of the sweet-dark theme.
+The .theme is a fork of the sweet-dark theme. https://github.com/EliverLara/Sweet
+
+I added a tar file for the Pixora icon theme. https://github.com/OcyOny/pixora-icons
 
 I may add Cinnamon DE specific theming in the future.

@@ -7,5 +7,7 @@ Hyper light drifter dotfiles for i3wm and xfce.
 <img width="1366" height="768" alt="Screenshot_2026-04-03-22-17-52_1366x768" src="https://github.com/user-attachments/assets/028091df-7b7d-4f5b-963f-e8a02eac3ccb" />
 
 (screenshots are a little outdated. I need to add new ones.)
-Thhe .theme is a fork of the sweet-dark theme.
+
+The .theme is a fork of the sweet-dark theme.
+
 I may add Cinnamon DE specific theming in the future.

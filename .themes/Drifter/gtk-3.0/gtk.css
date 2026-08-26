@@ -1093,7 +1093,10 @@ calendar {
   color: #C3C7D1;
   border: 1px solid #090a0f; }
   calendar:selected {
-    border-radius: 0px; }
+    border-radius: 0px;
+    border: none;
+    background: linear-gradient(to right, #FF2FC1, #46DD8C);
+    box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98); }
   calendar.header {
     border-bottom: 1px solid #FF2FC1;
     border-radius: 0; }
@@ -5540,11 +5543,12 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   border-radius: 0px;
   background-color: #46dd8c;
   transition: none;
-  box-shadow: 0 0 0 3px RGBA(12, 14, 20, 0.6);
+  box-shadow: 0 0 0 3px RGBA(12, 14, 20, 0.7);
 }
   .xfce4-panel.panel button.flat:hover:not(.open_group) {
     border: none;
     background-color: #8DFEC3;
+  box-shadow: 0 0 0 3px RGBA(12, 14, 20, 0.9);
 }
   .xfce4-panel.panel button.flat:active:not(.open_group), .xfce4-panel.panel button.flat:checked:not(.open_group) {
     color: white;
@@ -5565,11 +5569,11 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 }
 .xfce4-panel.background .tasklist button:hover {
     color: white;
-    background-color: RGBA(12, 14, 20, 0.8);
+    background-color: RGBA(12, 14, 20, 0.9);
 }
 .xfce4-panel.background .tasklist button:checked {
     color: white;
-    background: linear-gradient(to right, #FF2FB9, #46dd8c) left bottom RGBA(12, 14, 20, 0.6) no-repeat;
+    background: linear-gradient(to right, #FF2FB9, #46dd8c) left bottom RGBA(12, 14, 20, 0.7) no-repeat;
     background-size: 100% 2px;
     box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
 }
@@ -5577,11 +5581,12 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 #pager-4 #xfce-panel-toggle-button {
   margin: 3px 3px 3px 6px;
   color: rgba(255, 255, 255, 0.5);
-  background-color: RGBA(12, 14, 20, 0.6);
+  background-color: RGBA(12, 14, 20, 0.7);
 }
 #pager-4 #xfce-panel-toggle-button:hover {
   color: #ffffff;
-  background-color: RGBA(12, 14, 20, 0.8);
+  box-shadow: 0 0 0 3px RGBA(12, 14, 20, 0.9);
+  background-color: RGBA(12, 14, 20, 0.9);
 }
 #pager-4 #xfce-panel-toggle-button:checked {
   color: #ffffff;
@@ -5599,10 +5604,11 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 }
 
 #whiskermenu-button {
-  background-color: RGBA(12, 14, 20, 0.6);
+  background-color: RGBA(12, 14, 20, 0.7);
 }
   #whiskermenu-button:hover, #whiskermenu-button:checked {
-  background-color: RGBA(12, 14, 20, 0.8);
+  background-color: RGBA(12, 14, 20, 0.9);
+  box-shadow: 0 0 0 3px RGBA(12, 14, 20, 0.9);
 }
 
 #notification-plugin-9 button {
@@ -5613,6 +5619,12 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 #whiskermenu-window > frame > border {
   border-radius: 0px;
   background-color: #10121A;
+}
+
+#whiskermenu-window .category-button:checked {
+  background: linear-gradient(to right, #FF2FB9, #46dd8c);
+  box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+  border: none;
 }
 
 /* thunar */

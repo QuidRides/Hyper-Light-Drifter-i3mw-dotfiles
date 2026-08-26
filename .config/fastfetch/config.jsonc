@@ -1,0 +1,172 @@
+{
+"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+"logo": {
+"source": "~/.config/fastfetch/HeartMachine.txt",
+"color": {"1": "red"},
+"padding": {
+"top": 0,
+"left": 3
+}
+},
+"display": {
+"separator": "  "
+},
+"modules": [
+    "break",
+    {
+    "type": "os",
+    "key": "╭─────󰣭 DISTRO",
+    "keyColor": "green"
+    },
+    {
+    "type": "kernel",
+    "key": "│ ╭󰌽",
+    "keyColor": "green"
+    },
+    {
+    "type": "packages",
+    "key": "│ ├",
+    "keyColor": "green"
+    },
+    {
+    "type": "command",
+    "key": "│ ├󰟚",
+    "keyColor": "green",
+    "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+    },
+    {
+    "type": "shell",
+    "key": "│ ╰󰻳",
+    "keyColor": "green"
+    },
+
+    {
+    "type": "de",
+    "key": "├───── DE/WM",
+    "keyColor": "red"
+    },
+
+    {
+    "type": "wm",
+    "key": "│ ╭",
+    "keyColor": "red"
+    },
+
+    {
+    "type": "wmtheme",
+    "key": "│ ├",
+    "keyColor": "red"
+    },
+
+    {
+    "type": "icons",
+    "key": "│ ├",
+    "keyColor": "red"
+    },
+/*
+    {
+        "type": "cursor",
+        "key": "│ ├",
+        "keyColor": "red",
+    },
+*/
+    {
+        "type": "font",
+        "key": "│ ├",
+        "keyColor": "red",
+    },
+    {
+        "type": "terminalfont",
+        "key": "│ ├󰼭",
+        "keyColor": "red",
+    },
+    {
+    "type": "terminal",
+    "key": "│ ╰",
+    "keyColor": "red"
+    },
+    {
+    "type": "host",
+    "key": "├─────󰌢 SYSTEM",
+    "format": "{2}",
+    "keyColor": "yellow"
+    },
+    {
+    "type": "cpu",
+    "key": "│ ╭󱠂",
+    "keyColor": "yellow"
+    },
+    {
+    "type": "gpu",
+    "key": "│ ├󱍓",
+    "format": "{2}",
+    "keyColor": "yellow"
+    },
+    {
+    "type": "display",
+    "key": "│ ├",
+    "keyColor": "yellow",
+    "compactType": "original-with-refresh-rate"
+    },
+    {
+    "type": "memory",
+    "key": "│ ├󱗩",
+    "keyColor": "yellow",
+            "percent": {
+                "type": 3,
+                "green": 30,
+                "yellow": 70
+            }
+    },
+    {
+    "type": "disk",
+    "key": "│ ╰󰾆",
+    "keyColor": "yellow",
+            "folders": ["/"],
+            "percent": {
+                "type": 3,
+                "green": 30,
+                "yellow": 70
+            }
+    },
+/*
+    {
+    "type": "battery",
+    "key": "│ ├",
+    "keyColor": "yellow",
+            "percent": {
+                "type": 3,
+                "yellow": 30,
+                "green": 70
+            }
+    },
+    {
+    "type": "uptime",
+    "key": "│ ╰",
+    "keyColor": "yellow"
+    },
+*/
+    {
+    "type": "player",
+    "key": "╰─────󰥠 AUDIO",
+    "keyColor": "magenta"
+    },
+    {
+    "type": "media",
+    "key": "   󰝚",
+    "format": "\u001b[33m{2} \u001b[37m• {3} • {4}",
+    "keyColor": "magenta"
+    },
+
+/*    {
+    "type": "custom",
+    "format": "                Be   Do "
+    },
+*/
+    {
+    "type": "custom",
+    "format": "          ☙ \u001b[90m◈  \u001b[31m◈  \u001b[33m◈  \u001b[32m◈  \u001b[36m◈  \u001b[34m◈  \u001b[35m◈ \u001b[37m❧"
+    },
+    "break",
+    ]
+}

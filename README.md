@@ -19,6 +19,7 @@ I3:
 <img width="1366" height="768" alt="i3-late-qobine" src="https://github.com/user-attachments/assets/4e9fec08-922f-4b22-b231-a53e29abaf40" />
 
 > Dependencies list (mostly for I3): i3-wm, i3lock, feh, rofi, polybar, dunst, lxappearance, lightdm, xorg, i3status
+> 
 > Optional dependancies: cava, fastfetch, lightdm-gtk-greeter
 
 The .theme is a fork of the sweet-dark theme. https://github.com/EliverLara/Sweet

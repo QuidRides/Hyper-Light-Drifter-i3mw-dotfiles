@@ -9,7 +9,9 @@ XFCE:
 <img width="1366" height="768" alt="xfce-fastfetch-thunar" src="https://github.com/user-attachments/assets/0717e801-cebb-48b1-b0df-69fc124195dc" />
 <img width="1366" height="768" alt="xfce-btop-thunar" src="https://github.com/user-attachments/assets/3300a7a9-6749-4a38-80dd-ddc6b60e7652" />
 
+
 I3:
+
 
 <img width="1366" height="768" alt="i3-sound" src="https://github.com/user-attachments/assets/65f5e1d5-55f0-4f7f-977a-98b700dfb3b2" />
 <img width="1366" height="768" alt="i3-rofi" src="https://github.com/user-attachments/assets/fca15a89-f27d-477d-8053-f4d7ed415797" />

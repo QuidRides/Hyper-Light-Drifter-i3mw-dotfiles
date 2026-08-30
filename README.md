@@ -18,7 +18,7 @@ I3:
 <img width="1366" height="768" alt="i3-powermenu" src="https://github.com/user-attachments/assets/b434b7b6-916a-4381-a824-ab9e8a6bbe1f" />
 <img width="1366" height="768" alt="i3-late-qobine" src="https://github.com/user-attachments/assets/4e9fec08-922f-4b22-b231-a53e29abaf40" />
 
-> Dependencies list (mostly for I3): i3-wm, i3lock, feh, rofi, polybar, dunst, lxappearance, lightdm, xorg, i3status
+> Dependencies list (for I3): i3-wm, i3lock, feh, rofi, polybar, dunst, lxappearance, lightdm, xorg, i3status
 > 
 > Optional dependancies: cava, fastfetch, lightdm-gtk-greeter
 

@@ -16,12 +16,21 @@ I3:
 <img width="1366" height="768" alt="i3-powermenu" src="https://github.com/user-attachments/assets/b434b7b6-916a-4381-a824-ab9e8a6bbe1f" />
 <img width="1366" height="768" alt="i3-late-qobine" src="https://github.com/user-attachments/assets/4e9fec08-922f-4b22-b231-a53e29abaf40" />
 
-
+> Dependencies list (mostly for I3): i3-wm, i3lock, feh, rofi, polybar, dunst, lxappearance, lightdm, xorg, i3status
+> Optional dependancies: cava, fastfetch, lightdm-gtk-greeter
 
 The .theme is a fork of the sweet-dark theme. https://github.com/EliverLara/Sweet
 
 Pixora is the icon theme. https://github.com/OcyOny/pixora-icons
 
+If you would like to use the rofi launcher in XFCE add the laucher script path to you application shortcuts (i.e. /home/YourHomeDirectory/.config/rofi/launchers/type-4/launcher.sh)
+
+The rofi app launcher that mimics the pause menu of the game will need to be adjusted to fit your screen resolution.
+
 The XFCE panel uses specific fonts (DrifterMono.ttf and HyperLightDrifterMenuText.ttf) for some elements. If you would like to remove this funtion or don't have these fonts installed go into the .themes/Drifter/gtk3.0/gtk.css file and delete any line mentioning these fonts.
+
+Upcoming:
+
+I need to make a color-scheme file
 
 I may add Cinnamon DE specific theming in the future.

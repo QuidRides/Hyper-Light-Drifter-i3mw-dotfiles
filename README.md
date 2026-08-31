@@ -1,3 +1,4 @@
+
 Hyper light drifter dotfiles for i3wm and xfce.
 
 XFCE:
@@ -8,9 +9,9 @@ XFCE:
 <img width="1366" height="768" alt="xfce-powermenu" src="https://github.com/user-attachments/assets/d9ddc02b-4dda-4655-ab0d-3dab3c7ce45f" />
 <img width="1366" height="768" alt="xfce-fastfetch-thunar" src="https://github.com/user-attachments/assets/0717e801-cebb-48b1-b0df-69fc124195dc" />
 <img width="1366" height="768" alt="xfce-btop-thunar" src="https://github.com/user-attachments/assets/3300a7a9-6749-4a38-80dd-ddc6b60e7652" />
+<img width="1366" height="768" alt="xfce-xed" src="https://github.com/user-attachments/assets/60f7258c-33ca-44c7-b832-9cf259707c64" />
 
-
-I3:
+i3:
 
 
 <img width="1366" height="768" alt="i3-sound" src="https://github.com/user-attachments/assets/65f5e1d5-55f0-4f7f-977a-98b700dfb3b2" />
@@ -18,7 +19,7 @@ I3:
 <img width="1366" height="768" alt="i3-powermenu" src="https://github.com/user-attachments/assets/b434b7b6-916a-4381-a824-ab9e8a6bbe1f" />
 <img width="1366" height="768" alt="i3-late-qobine" src="https://github.com/user-attachments/assets/4e9fec08-922f-4b22-b231-a53e29abaf40" />
 
-> Dependencies list (for I3): i3-wm, i3lock, feh, rofi, polybar, dunst, lxappearance, lightdm, xorg, i3status
+> Dependencies list (for i3): i3-wm, i3lock, feh, rofi, polybar, dunst, lxappearance, lightdm, xorg, i3status
 > 
 > Optional dependancies: cava, fastfetch, lightdm-gtk-greeter
 

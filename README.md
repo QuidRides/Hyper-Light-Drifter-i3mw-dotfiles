@@ -33,8 +33,10 @@ The rofi app launcher that mimics the pause menu of the game will need to be adj
 
 The XFCE panel uses specific fonts (DrifterMono.ttf and HyperLightDrifterMenuText.ttf) for some elements. If you would like to remove this funtion or don't have these fonts installed go into the .themes/Drifter/gtk3.0/gtk.css file and delete any line mentioning these fonts.
 
-Upcoming:
-
-I need to make a color-scheme file
-
-I may add Cinnamon DE specific theming in the future.
+> Upcoming:
+>
+> Make a color-scheme file.
+>
+> Change XFWM elements.
+>
+> I may add Cinnamon DE specific theming in the future.

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+ Copyright (C) 2006-2007 GtkSourceView team
+ Author: Hyrum Wild
+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, write to the
+ Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ Boston, MA 02111-1307, USA.
+
+-->
+<style-scheme id="drifter" _name="Drifter" version="1.0">
+  <author>mrwild</author>
+  <_description>Color scheme using Theodolite color palette</_description>
+
+  <!-- Drifter palette -->
+  <color name="midnight1"                 value="#10121A"/>
+  <color name="midnight2"                 value="#181B28"/>
+  <color name="red1"                      value="#FF2FC1"/>
+  <color name="red2"                      value="#FD6FCD"/>
+  <color name="green1"                    value="#43FFA8"/>
+  <color name="green2"                    value="#7BFCB8"/>
+  <color name="yellow1"                   value="#FFF362"/>
+  <color name="yellow2"                   value="#FDF58D"/>
+  <color name="blue1"                     value="#355BE6"/>
+  <color name="blue2"                     value="#7390FD"/>
+  <color name="purple1"                   value="#C50ED2"/>
+  <color name="purple2"                   value="#F252FC"/>
+  <color name="teal1"                     value="#35E6E3"/>
+  <color name="teal2"                     value="#8DFCFA"/>
+  <color name="white1"                    value="#F4F2F8"/>
+  <color name="white2"                    value="#A896BA"/>
+  <color name="white3"                    value="#ffffff"/>
+  <color name="grey1"                     value="#6272A4"/>
+
+
+  <!-- Global Settings -->
+  <style name="current-line"                background="midnight1"/>
+  <style name="current-line-number"         background="red1"/>
+  <style name="draw-spaces"                 foreground="yellow2"/>
+  <style name="background-pattern"          background="white2"/>
+  <style name="line-numbers"                foreground="white3" background="midnight1"/>
+  <style name="cursor"                      foreground="red1"/>
+  <style name="selection"                   foreground="white3" background="grey1"/>
+
+  <!-- Bracket Matching -->
+  <style name="bracket-match"               foreground="white1" background="teal1"/>
+  <style name="bracket-mismatch"            foreground="white1" background="red1"/>
+
+  <!-- Right Margin -->
+  <style name="right-margin"                foreground="midnight2" background="midnight1"/>
+
+  <!-- Search Matching -->
+  <style name="search-match"                foreground="midnight2" background="green1"/>
+
+  <!-- Comments -->
+  <style name="def:comment"                 foreground="blue1"/>
+  <style name="def:shebang"                 foreground="blue2" bold="true"/>
+  <style name="def:doc-comment-element"     italic="true"/>
+
+  <!-- Constants -->
+  <style name="def:constant"                foreground="purple2"/>
+  <style name="def:special-char"            foreground="purple1"/>
+
+  <!-- Identifiers -->
+  <style name="def:identifier"              foreground="blue2"/>
+
+  <!-- Statements -->
+  <style name="def:statement"               foreground="red2" bold="true"/>
+
+  <!-- Types -->
+  <style name="def:type"                    foreground="green2" bold="true"/>
+
+  <!-- Others -->
+  <style name="def:preprocessor"            foreground="teal2"/>
+  <style name="def:error"                   background="red1" bold="true"/>
+  <style name="def:warning"                 background="purple1"/>
+  <style name="def:note"                    background="yellow1" bold="true"/>
+  <style name="def:underlined"              italic="true" underline="single"/>
+
+  <!-- Heading styles, uncomment to enable -->
+  <!--
+  <style name="def:heading0"                scale="5.0"/>
+  <style name="def:heading1"                scale="2.5"/>
+  <style name="def:heading2"                scale="2.0"/>
+  <style name="def:heading3"                scale="1.7"/>
+  <style name="def:heading4"                scale="1.5"/>
+  <style name="def:heading5"                scale="1.3"/>
+  <style name="def:heading6"                scale="1.2"/>
+  -->
+
+  <!-- Language specific -->
+  <style name="diff:added-line"             foreground="green2"/>
+  <style name="diff:removed-line"           foreground="purple1"/>
+  <style name="diff:changed-line"           use-style="def:preprocessor"/>
+  <style name="diff:diff-file"              use-style="def:type"/>
+  <style name="diff:location"               use-style="def:statement"/>
+  <style name="diff:special-case"           use-style="def:constant"/>
+
+  <style name="xml:tags"                    foreground="green1"/>
+  <style name="xml:namespace"               bold="true"/>
+
+  <style name="js:object"                   foreground="green2" bold="true"/>
+  <style name="js:constructors"             foreground="green1"/>
+
+  <style name="latex:display-math"          foreground="purple1"/>
+  <style name="latex:command"               foreground="green2" bold="true"/>
+  <style name="latex:include"               use-style="def:preprocessor"/>
+  <style name="latex:special-char"          use-style="def:constant"/>
+
+  <style name="sh:variable"                 foreground="purple1"/>
+  <style name="sh:variable-definition"      foreground="green2"/>
+
+</style-scheme>

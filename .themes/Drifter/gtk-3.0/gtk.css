@@ -4395,20 +4395,23 @@ treeview.view header button, treeview.view header button:hover, treeview.view he
  * Window Decorations *
  *********************/
 decoration {
-  border-radius: 0;
-  border-width: 0px;
-  border-width: 0px;
-  box-shadow: 0 4px 10px 2px rgba(9, 10, 15, 0.8);
-  margin: 10px; }
+  border-radius: 1px;
+  box-shadow:  0 0 0 2px #FF2FB9;
+  background-clip: border-box;
+  margin: 8px; }
   decoration:backdrop {
-    box-shadow: 0 4px 10px 2px rgba(9, 10, 15, 0.6);
+    box-shadow:  0 0 0 2px #161925;
+    background-clip: border-box;
     transition: 200ms ease-out; }
   .maximized decoration, .fullscreen decoration, .tiled decoration {
     border-radius: 0; }
   .popup decoration {
     box-shadow: none; }
   .ssd decoration {
-    box-shadow: none; }
+    box-shadow: 0 0 1px rgba(8, 7, 14, 0.01), 0 0 0 2px #FF2FB9;
+    border: none; }
+  .ssd decoration:backdrop {
+    box-shadow: 0 0 1px rgba(8, 7, 14, 0.01), 0 0 0 2px #161925; }
   .csd.popup decoration {
     border-radius: 0px;
     box-shadow: 0 4px 8px #090a0f;
@@ -4469,6 +4472,7 @@ popover.background radiobutton:selected,
 .menuitem.button.flat:selected, calendar:selected, spinbutton:not(.vertical) selection:focus, spinbutton:not(.vertical) selection,
 entry selection:focus,
 entry selection, row:selected, treeview.view:selected:focus, treeview.view:selected {
+  color: #ffffff;
   background-color: #FF2FC1; }
   row:selected label, label:selected, .selection-mode button.titlebutton, .view:selected:focus, iconview:selected:focus, .view:selected, iconview:selected,
   .view text:selected:focus,
@@ -5532,13 +5536,10 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 .xfce4-panel.background {
   border: none;
   background-color: transparent;
-  color: rgba(255, 255, 255, 0.5);
-  font-family: "DrifterMono";
-  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
 }
 .xfce4-panel.background button {
   font-size: 11px;
-  font-family: "HyperLightDriftermenutext";
 }
 
 .xfce4-panel.panel button.flat:not(.open_group) {
@@ -5566,7 +5567,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 
 .xfce4-panel.background .tasklist button {
   margin: 2px 3px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);
   border-radius: 0px;
   border: none;
   background-color: RGBA(12, 14, 20, 0.3);
@@ -5600,13 +5601,20 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   background-size: 100% 2px;
 }
 
+#genmon-3 button {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  box-shadow: none;
+  text-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+}
+
 #clock-button {
   color: #141620;
   background-color: #FFF362;
   font-weight: bold;
 }
 #clock-button:hover {
-  background-color: #CFC11C;
+  background-color: #E6D508;
 }
 
 #whiskermenu-button {
@@ -5630,8 +5638,13 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 
 #whiskermenu-window .category-button:checked {
   background: linear-gradient(to right, #FF2FB9, #43FFA8);
-  box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+  box-shadow: 0px 0px 10px rgba(197, 14, 210, 0.98);
   border: none;
+}
+
+#whiskermenu-window .profile-username {
+  color: #ffffff;
+  text-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
 }
 
 /* thunar */
@@ -5698,7 +5711,7 @@ window.thunar toolbar#location-toolbar entry {
     background-color: #202435;
     text-shadow: none; }
     #XfceNotifyWindow button:hover {
-      color: #C3C7D1;
+      color: #ffffff;
       outline-color: rgba(195, 199, 209, 0.3);
       background-color: #FF2FC1;
       text-shadow: none; }
@@ -6198,7 +6211,7 @@ ConversationListView {
     background-color: #181b28;
     text-shadow: none; }
   #content_frame button:active, #content_frame button:checked {
-    color: #C3C7D1;
+    color: #ffffff;
     outline-color: rgba(195, 199, 209, 0.3);
     background-color: #FF2FC1;
     text-shadow: none; }
@@ -6247,7 +6260,7 @@ ConversationListView {
 
 #user_image {
   padding: 3px;
-  border-radius: 0px; }
+  border-radius: 1px; }
 
 #greeter_infobar {
   border-bottom-width: 0;
@@ -6262,6 +6275,7 @@ ConversationListView {
     background: #202435; }
   .nemo-window .places-treeview .view.cell:selected, .nemo-window .places-treeview iconview.cell:selected,
   .nemo-window .places-treeview iconview.cell:selected {
+    color: #fefefe;
     background: #FF2FC1; }
 .nemo-window .sidebar {
   color: #C3C7D1;
